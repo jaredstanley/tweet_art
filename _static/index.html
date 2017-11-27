@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Image Generator</title>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <canvas id="c" width="500" height="500"></canvas>
+    <a class="link" id="href">
+      <p>generate url w string param</p>
+    </a>
+    <a class="link" href="?string=""">
+      <p>reset params</p>
+    </a>
+    <script type="text/javascript">
+      var rand = Math.random();
+      var url ="?string=change-me"+rand;
+      document.getElementById("href").setAttribute("href",url);
+    </script>
+
+      <script src="js/seedrandom.min.js"></script>
+      <script src="js/script.js"></script>
+  </body>
+</html>

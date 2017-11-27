@@ -1,0 +1,8 @@
+body{
+	margin:0;
+	background-image: linear-gradient(to top, #dedede 0%, #efefef 100%);
+}
+
+#c{
+	background-color: #ffffff;
+}

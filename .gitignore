@@ -1,0 +1,23 @@
+bot_refactor/img/
+
+bot_refactor/img copy/
+
+bot_refactor/node_modules
+
+static/node_modules/
+
+old/bot/img/
+
+old/bot/img copy/
+
+old/bot/node_modules/
+
+old/v1/node_modules/
+
+old/v2/node_modules/
+
+*.DS_Store
+
+.env/*
+
+node_modules
