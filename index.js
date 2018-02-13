@@ -52,7 +52,7 @@ _P.App = {
 //
 _P.TwtrAPI= {
   count: 0,
-  since_id: "934896989539586054",
+  since_id: "963152799486828544",
   init: function(){
     this.count=0;
     this.fetchNum = 200;
